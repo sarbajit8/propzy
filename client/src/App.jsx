@@ -22,9 +22,9 @@ const App = () => {
       <Routes>
 
          <Route path='/' element={     
-        <CheckAuth>
+        // <CheckAuth>
         <Layout />
-        </CheckAuth>
+        // </CheckAuth>
      }>
 
           <Route path='home' element={<Home />} />
