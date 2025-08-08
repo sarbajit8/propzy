@@ -34,6 +34,7 @@ app.get('/', async (req, res) => {
 db.sequelize.sync({ alter: true })
   .then(() => {
     console.log('Database synchronized');
+    console.log('Backend connected successfully to the database');
     //server running
     app.listen(PORT, () => {
       console.log(`Server is running on port ${PORT}`);
