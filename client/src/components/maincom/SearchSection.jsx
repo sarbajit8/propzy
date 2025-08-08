@@ -1,6 +1,6 @@
 import React from 'react'
 import { Search, MapPin, Filter } from "lucide-react"
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
 const SearchSection = () => {
@@ -51,21 +51,21 @@ const SearchSection = () => {
 
       {/* Category Buttons */}
       <div className="flex justify-center gap-2 sm:gap-3 lg:gap-4 mb-4 sm:mb-5 lg:mb-6">
-        <Button className="px-3 sm:px-4 lg:px-6 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 text-white rounded-full py-2 sm:py-2.5 lg:py-3 text-xs sm:text-sm lg:text-base font-semibold transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-105 active:scale-95">
+        <button className="px-3 sm:px-4 lg:px-6 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 text-white rounded-full py-2 sm:py-2.5 lg:py-3 text-xs sm:text-sm lg:text-base font-semibold transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-105 active:scale-95">
           Buy
-        </Button>
-        <Button 
+        </button>
+        <button 
           variant="outline" 
           className="px-3 sm:px-4 lg:px-6 rounded-full border-2 border-violet-300 bg-transparent text-violet-600 hover:bg-violet-50 hover:border-violet-400 active:bg-violet-100 py-2 sm:py-2.5 lg:py-3 text-xs sm:text-sm lg:text-base font-semibold transition-all duration-200 shadow-sm hover:shadow-md transform hover:scale-105 active:scale-95"
         >
           Rent
-        </Button>
-        <Button 
+        </button>
+        <button 
           variant="outline" 
           className="px-3 sm:px-4 lg:px-6 rounded-full border-2 border-violet-300 bg-transparent text-violet-600 hover:bg-violet-50 hover:border-violet-400 active:bg-violet-100 py-2 sm:py-2.5 lg:py-3 text-xs sm:text-sm lg:text-base font-semibold transition-all duration-200 shadow-sm hover:shadow-md transform hover:scale-105 active:scale-95"
         >
           Commercial
-        </Button>
+        </button>
       </div>
 
       {/* Enhanced Search Bar */}

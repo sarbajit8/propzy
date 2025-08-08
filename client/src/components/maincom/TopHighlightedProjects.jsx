@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const TopHighlightedProjects = () => {
@@ -120,23 +120,23 @@ const TopHighlightedProjects = () => {
         <div className="relative">
           {/* Navigation Buttons - Desktop Only */}
           <div className="hidden lg:block">
-            <Button
+            <button
               variant="outline"
               size="icon"
               onClick={prevSlide}
               className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-6 z-10 bg-white hover:bg-violet-50 w-12 h-12"
             >
               <ChevronLeft className="h-5 w-5 text-violet-600" />
-            </Button>
+            </button>
             
-            <Button
+            <button
               variant="outline"
               size="icon"
               onClick={nextSlide}
               className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-6 z-10 bg-white hover:bg-violet-50 w-12 h-12"
             >
               <ChevronRight className="h-5 w-5 text-violet-600" />
-            </Button>
+            </button>
           </div>
 
           {/* Mobile: Horizontal Scrollable */}
@@ -290,13 +290,13 @@ const TopHighlightedProjects = () => {
 
         {/* View All Button */}
         <div className="text-center mt-12">
-          <Button 
+          <button 
             variant="default" 
             size="lg" 
             className="px-8 bg-violet-600 hover:bg-violet-700 transition-all"
           >
             View All Highlighted Projects
-          </Button>
+          </button>
         </div>
       </div>
     </section>

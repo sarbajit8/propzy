@@ -1,6 +1,5 @@
 import React from 'react' // Remove useRef since it's not being used
 import { Search } from "lucide-react" // Only import icons being used
-import { Button } from "@/components/ui/button" // Fix capitalization of 'button'
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"

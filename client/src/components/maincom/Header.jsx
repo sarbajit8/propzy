@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from "@/components/ui/Button"
+// import { Button } from "@/components/ui/Button"
 import { MenuIcon } from 'lucide-react'
 import logo from "@/assets/logop.png"
 
@@ -47,7 +47,8 @@ const Header = () => {
 
       {/* CTA Button */}
       <div className="pr-3 sm:pr-4 lg:pr-6">
-        <Button
+        <button
+        
           variant="outline"
           size="sm"
           className="text-xs sm:text-sm lg:text-base font-semibold 
@@ -60,7 +61,7 @@ const Header = () => {
         >
           <span className="hidden sm:inline">Post Free Property Ad</span>
           <span className="sm:hidden">Post Ad</span>
-        </Button>
+        </button>
       </div>
     </div>
   )
