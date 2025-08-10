@@ -58,6 +58,7 @@ export const loginAdmin = async (req, res) => {
 };
 
 
+
 export const editAdmin = async (req, res) => {
   const { id } = req.params;
   const { name, email, password, admin_type } = req.body;

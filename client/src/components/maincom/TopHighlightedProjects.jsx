@@ -289,7 +289,7 @@ const TopHighlightedProjects = () => {
         </div>
 
         {/* View All Button */}
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <button 
             variant="default" 
             size="lg" 
@@ -297,7 +297,7 @@ const TopHighlightedProjects = () => {
           >
             View All Highlighted Projects
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -22,9 +22,9 @@ const App = () => {
       <Routes>
 
          <Route path='/' element={     
-        // <CheckAuth>
+        <CheckAuth>
         <Layout />
-        // </CheckAuth>
+        </CheckAuth>
      }>
 
           <Route path='home' element={<Home />} />
@@ -33,8 +33,9 @@ const App = () => {
  
 
          <Route path='admin' element={
-      
-        <AdminLayout />
+              <CheckAuth>
+           <AdminLayout />
+       </CheckAuth>
      
      }>
 
@@ -60,6 +61,8 @@ const App = () => {
         <Route path='/admin-login' element={
         <AdminLogin />
      }/>
+   
+
    
       </Routes>
 

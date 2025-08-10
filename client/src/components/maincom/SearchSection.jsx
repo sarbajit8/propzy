@@ -41,7 +41,7 @@ const SearchSection = () => {
               Property Made Easy
             </h1>
             {/* Decorative underline */}
-            <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 lg:w-24 h-0.5 bg-gradient-to-r from-violet-400 to-purple-400 rounded-full"></div>
+            {/* <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 lg:w-24 h-0.5 bg-gradient-to-r from-violet-400 to-purple-400 rounded-full"></div> */}
           </div>
         </div>
         <p className="text-gray-600 text-sm sm:text-base lg:text-lg max-w-md sm:max-w-lg lg:max-w-xl mx-auto">

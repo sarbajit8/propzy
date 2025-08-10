@@ -104,8 +104,11 @@ const adminSlice = createSlice({
       state.loading = true; state.error = null;
     });
     builder.addCase(loginAdmin.fulfilled, (state, action) => {
-      state.loading = false; state.currentAdmin = action.payload; state.success = "Login successful"; state.error = null;
-    });
+  state.loading = false;
+  state.currentAdmin = action.payload; // <<<< PROBLEM: action.payload may be the full admin object, not just {id, email}
+  state.success = "Login successful";
+  state.error = null;
+});
     builder.addCase(loginAdmin.rejected, (state, action) => {
       state.loading = false; state.error = action.payload;
     });
